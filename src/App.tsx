@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Button} from "antd";
+import {HeaderButton} from "./Components/Header/Header.styled";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        <HeaderButton>
+          Click
+        </HeaderButton>
       </header>
     </div>
   );
